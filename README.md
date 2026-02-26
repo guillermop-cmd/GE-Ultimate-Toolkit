@@ -53,11 +53,3 @@ El menú principal está categorizado estratégicamente para resolver más del 9
 * **Generación de Reporte Técnico Automático:** Exportación a archivo `.txt` de evidencias de soporte (Usuario logueado, Nombre del Equipo, IP Local, Detalles del Sistema Operativo).
 
 ---
-
-## ⚙️ Instalación y Compilación a Binario (.exe)
-
-Este código está optimizado para funcionar como un script `.ps1` independiente o ser empaquetado en un archivo ejecutable mediante `PS2EXE`. Se ha implementado un manejo de errores robusto para evitar que la consola de Windows colapse durante operaciones matemáticas o de red complejas.
-
-**Instrucción de compilación recomendada (desde PowerShell):**
-```powershell
-Invoke-PS2EXE -InputFile "GE_Ultimate_Toolkit.ps1" -OutputFile "GE_Toolkit.exe" -Title "GE Toolkit IT" -Version "18.0"
